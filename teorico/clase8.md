@@ -125,3 +125,9 @@ $$
 Estos dos sistemas son equivalentes, por lo que $N(c_1c_2) = CR(4, 2) = C(5, 2) = 10 $. De la misma forma, $N(c_1c_3) = N(c_1c_4) = N(c_2c_3) = N(c_2c_4) = N(c_3c_4) = 10$
 
 Finalmente, $N(c_ic_jc_k) = 0$ y $N(c_1c_2c_3c_4) = 0$, porque no hay soluciones a este problema cuando queremos igualar a un número negativo.
+
+Utilizando el principio de inclusión-exclusión:
+
+$$
+N(\overline{c_1}\overline{c_2}\overline{c_3}\overline{c_4}) = N - S_1 + S_2 - S_3 + S_4 = 1330 - 4 \cdot 286 + 6 \cdot 10 = 1330 - 1144 + 60 = 246
+$$
