@@ -110,5 +110,12 @@ $$
 Veamos los casos particulares donde:
 
 - A = 0: entonces la ecuación se reduce a una ecuación lineal de primer orden.
-- B = 0: entonces la ecuación se reduce a una ecuación lineal de primer orden, pero que da saltos. Esto se puede resolver con la misma ecuación lineal de primer orden pero de forma separada por términos pares y impares.
 - C = 0: entonces la ecuación se reduce a una ecuación lineal de primer orden, que empieza en 1 en vez de 0
+- B = 0: entonces la ecuación se reduce a una ecuación lineal de primer orden, pero que da saltos. En este caso la ecuación anterior es equivalente a tomar dos sucesiones $(x_n)_{n \in\mathbb{N}} = a_{2n} $ y $(y_n)_{n \in\mathbb{N}} = a_{2n+1}$ y resolver dos ecuaciones lineales de primer orden. Tendremos que la ecuación inicial es lo mismo que resolver:
+
+$$
+\begin{cases}
+A x_{n-1} + C x_n = 0 \\
+A y_{n-1} + C y_n = 0
+\end{cases}
+$$
