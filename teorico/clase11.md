@@ -165,3 +165,19 @@ Las sucesiones $(a_n)_{n \in \mathbb{N}}$ que satisfacen la ecuación lineal hom
 $$
 Aa_{n+1} + Ba_n = 0 \quad \text{con }A,B\in\mathbb{R}, A\neq 0
 $$
+
+Son las sucesiones de la forma:
+
+$$
+a_n = a_0 \times (-\frac{B}{A})^n
+$$
+
+## Ecuación líneal homogénea de segundo orden
+
+Se llama ecuación lineal del segundo orden a toda relación de recurrencia de la forma:
+
+$$
+Aa_{n+2} + Ba_{n+1} + Ca_n = f(n) \quad \text{con } A,B,C \in \mathbb{R}, A \neq 0, f:\mathbb{N} \to \mathbb{R}
+$$
+
+Cuando $f(n) = 0$ para todo $n \in \mathbb{N}$, se llama ecuación líneal __homogénea__ de segundo orden.
