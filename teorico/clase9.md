@@ -1,4 +1,4 @@
-# CLASE 9 - 27/1/2025
+# CLASE 9 - 27/01/2025
 
 ## Principio de inclusión-exclusión: Aplicaciones
 
