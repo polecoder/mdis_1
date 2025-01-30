@@ -209,11 +209,3 @@ La respuesta es la relación de igualdad sobre $A$. Veamos por qué:
 Si $x=y$, entonces $xRy$ por reflexividad. Pero si $xRy$, entonces $yRx$ por simetría. Si $xRy$ y $yRx$, entonces $x=y$ por antisimetría.
 
 Entonces la relación es la igualdad, que es la única relación que es a la vez una relación de orden y una relación de equivalencia.
-
-### Conteo de la cantidad de relaciones
-
-Dados dos conjuntos finitos $A$ y $B$, con $|A| = m$ y $|B| = n$, entonces: $|A\times B| = mn$. La cantidad de relaciones posibles es equivalente a hallar el cardinal de: $P(A\times B)$, que es el conjunto potencia de $A\times B$. Entonces:
-
-$$|P(A\times B)| = 2^{mn}$$
-
-Veamos que pasa si $A=B$, $|A| = n$, $A = \{a_1, \ldots, a_n\}$. Podemos representar cada relación $R \subset A^2$ como una matriz cuadrada de $n\times n$ donde cada elemento de la matriz es 0 o 1. Si $a_iRa_j$, entonces la entrada $i, j$ de la matriz es 1, y 0 en caso contrario.
