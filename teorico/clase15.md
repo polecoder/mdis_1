@@ -20,8 +20,51 @@ La mejor forma de calcular $R\circ S$ es usando el diagrama sagital:
 
 ```mermaid
 graph LR
-    
+    %% Definir los nodos
+    subgraph Conjunto A
+        A1[1]
+        A2[2]
+        A3[3]
+    end
+    subgraph Conjunto B
+        Bx[x]
+        By[y]
+        Bz[z]
+        Bt[t]
+    end
+    subgraph Conjunto C
+        Cx[x]
+        Cy[y]
+        Cz[z]
+        Ct[t]
+    end
+
+    %% Relación R: A → B
+    A1 --> Bx
+    A1 --> Bz
+    A3 --> Bx
+    A3 --> Bz
+    A3 --> Bt
+
+    %% Relación S: B → C
+    By --> Cy
+    Bz --> Cz
+    Bt --> Cx
+    Bt --> Cz
+
+    %% Estilos para diferenciar las relaciones
+    style A1 stroke:#ff6347,stroke-width:2px
+    style A3 stroke:#ff6347,stroke-width:2px
+    style Bx stroke:#4682b4,stroke-width:2px
+    style Bz stroke:#4682b4,stroke-width:2px
+    style Bt stroke:#4682b4,stroke-width:2px
+    style By stroke:#32cd32,stroke-width:2px
+    style Cx stroke:#32cd32,stroke-width:2px
+    style Cz stroke:#32cd32,stroke-width:2px
+    style Ct stroke:#32cd32,stroke-width:2px 
 ```
+
+Del dibujo
 
 **Observación**: La relación compuesta se escribe al revés de la función compuesta.
 
